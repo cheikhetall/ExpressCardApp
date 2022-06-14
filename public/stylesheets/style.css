@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family:'Quicksand','sans-serif'
+}
+
+html,body{
+  margin: 0;
+}
+
+.full-screen-container{
+  background-image: url("../images/newsimage.jpg");
+  width:100vw;
+  height:100vw;
+  background-size: cover ;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.mainContainer{
+  background-size: cover;
+  background-position: center;
+  width:100vw;
+  height:100vw;
+  display: flex;
+  flex-direction:row;
+  flex-grow: 1;
+  background-color: #999;
+  justify-content: flex-start;
+}
+
+.mainContainer > div {
+   background-color: rgba(165, 42, 42, 0.297);
+  width: 100px;
+  margin: 10px;
+ 
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flexbox-item-2{
+  display:flex;
+   border-radius: 2%;
+  flex-wrap: wrap;
+}
+.cardImages{
+  border-radius: 10%;
+ 
+}
+
+.profileImage{
+  border-radius: 50%;
+}
+div.card {
+   border: double;
+   border-radius: 10%;
+  display: inline-block;
+  border: 1px solid #2b415433;
+  margin-top: 10px;
+  margin: 10px;
+  background: rgb(116, 22, 22);
+  width: 23%;
+  height:24%;
+  vertical-align: top;
+}
+.textarea{
+  font-size: small;
+  width: 200px;
+height: 75px;
+}
+
+.login-container{
+  background-color: hsla(201, 100%, 6%, 0.6);
+  padding: 50px;
+
+}
+.flashdivDot{
+  background-color: hsla(201, 100%, 6%, 0.6);
+  padding: 50px;
+}
+div.collection {
+  display: inline-block;
+  border: 1px solid #2b415433;
+  background: white;
+  width: 23%;
+  vertical-align: top;
+}
+
+
+.addButton{
+
+  justify-content: center;
+  align-items: center;
+}
