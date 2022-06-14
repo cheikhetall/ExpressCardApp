@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,300,500">
+<link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+<div class="full-screen-container">
+<div class="login-container">
+<h3 class="login-title">Welcome</h3>
+
+
+<form action="/login" method="post">
+
+<div class="input-group" >
+  <label>Email</label>
+  <input type="email" name="email">
+</div>
+<div class="input-group" >
+  <label>Password</label>
+  <input type="password" name="password">
+</div>
+<button class="login-button">Sign In</button>
+<a class="login-button" style="color: beige;" href="/register">register</a>
+
+</form>
+<div class="flashdivDot" style="background-color: hsla(201, 100%, 6%, 0.6); padding: 50px;">
+{{messages.error}}
+</div>
+
+</body>
+
+</html>
